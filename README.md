@@ -1,26 +1,29 @@
-# DaanMatch Wiki
+# Wiki
 
-This cookiecutter creates a simple boilerplate for a Jupyter Book.
+[![Jupyter Book Badge](https://jupyterbook.org/badge.svg)]( https://daanmatch.github.io/wiki/)
 
-## Usage
+![build](https://github.com/DaanMatch/wiki/workflows/deploy/badge.svg?branch=master)
+
+## Updating Instructions
+
+For those wishing to add their agendas to this Jupyter Book:
+
+- Please upload content as `.md` files or `.ipynb` files to the wiki directory.
+- Add files to the Table of Contents in the meetings/_toc.yml file.
+- Include any dependencies to the requirements.txt file.
+- The book will be rebuilt and deployed automatically.
+
+## Developer Usage
 
 ### Building the book
 
-If you'd like to develop and/or build the DaanMatch Wiki book, you should:
+If you'd like to develop and/or build the My Book book, you should:
 
 1. Clone this repository
 2. Run `pip install -r requirements.txt` (it is recommended you do this within a virtual environment)
-3. (Optional) Edit the books source files located in the `daanmatch_wiki/` directory
-4. Run `jupyter-book clean daanmatch_wiki/` to remove any existing builds
-5. Run `jupyter-book build daanmatch_wiki/`
-
-A fully-rendered HTML version of the book will be built in `daanmatch_wiki/_build/html/`.
-
-### Hosting the book
-
-Please see the [Jupyter Book documentation](https://jupyterbook.org/publish/web.html) to discover options for deploying a book online using services such as GitHub, GitLab, or Netlify.
-
-For GitHub and GitLab deployment specifically, the [cookiecutter-jupyter-book](https://github.com/executablebooks/cookiecutter-jupyter-book) includes templates for, and information about, optional continuous integration (CI) workflow files to help easily and automatically deploy books online with GitHub or GitLab. For example, if you chose `github` for the `include_ci` cookiecutter option, your book template was created with a GitHub actions workflow file that, once pushed to GitHub, automatically renders and pushes your book to the `gh-pages` branch of your repo and hosts it on GitHub Pages when a push or pull request is made to the main branch.
+3. (Optional) Edit the books source files located in the `meetings/` directory
+4. Run `jupyter-book clean wiki/` to remove any existing builds
+5. Run `jupyter-book build wiki/`
 
 ## Contributors
 
