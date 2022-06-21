@@ -8,3 +8,5 @@ parts:
     chapters:
     - file: DataOps.md
       title: DataOps
+    - file: UserAgreements.md
+      title: User Agreements
