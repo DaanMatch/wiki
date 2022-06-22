@@ -37,7 +37,7 @@ html:
   use_repository_button: true
   comments:
     utterances:
-      repo: "DaanMatch/meeting-agendas"
+      repo: "DaanMatch/wiki"
     hypothesis: true
 
 # Parse and render settings
