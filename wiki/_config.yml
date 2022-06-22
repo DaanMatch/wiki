@@ -39,7 +39,6 @@ html:
     utterances:
       repo: "DaanMatch/wiki"
     hypothesis: true
-    dokieli: true
 
 # Parse and render settings
 parse:
