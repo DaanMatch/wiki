@@ -10,7 +10,7 @@ parts:
       title: DataOps
     - file: privacy_policy.md
       title: Privacy Policy
-    - file: Blockchain.md
+    - file: blockchain.md
       title: Blockchain
     - file: UserAgreements.md
       title: User Agreements
