@@ -6,10 +6,10 @@
 2. Financial transparency: NGOs rely on donations and grants to fund their operations. By using a blockchain-based system to track financial transactions, NGOs can provide a transparent record of how funds are being used and where they are going. This cna help build trust with donors and ensure that funds are being used in the way they were intended.
 3. Program tracking: NGos often implement long-term programs or projects that involve multiple partners and stakeholders. By using a blockchain-based system, NGOs can track the progress of these programs and provide aw transparent record of their activities and outcomes. THis can help demonstrate the impact of the program and ensure that it is meeting its goals.
 
-## General steps to follow to build a blockchain-based system for supply-chain transparency.
+## General steps to follow to build a blockchain-based system for supply-chain transparency
 
 - Identify the specific supply chain challenges that you want to address with the blockchain system.Some common issues in  include lack of transparency, inefficient processes, and limited accountability.
-- Determine the appropriate blockchain platform for your needs. There are many different blockchain platforms available, each with its own strengths and weaknesses. Some popular platforms for supply chain applications include Ethereum, Hyperledger Fabric, Corda.
+- Determine the appropriate blockchain platform for your needs. There are many different blockchain platforms available, each with its own strengths and weaknesses. Some popular platforms for supply chain applications include [Ethereum](https://ethereum.org/en/), [Hyperledger Fabric](https://www.hyperledger.org/use/fabric), [Corda](https://corda.net).
 - Design and develop the blockchain system. This will involve deciding on the specific features and functionality you want to include, as well as any necessary integrations with existing systems or processes.
 - Implement and test the system. This will likely involve working with different stakeholders in the supply chain, including NGOs, manufacturers, and logistics providers, to ensure that the system meets their needs and is effective in addressing the identified supply chain challenges.
 - Monitor and maintain the system over time. This will involve ongoing testing and development to ensure the system continues to meet the needs of all stakeholders and remains secure.
