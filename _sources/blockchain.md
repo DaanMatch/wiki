@@ -8,7 +8,7 @@
 
 ## General steps to follow to build a blockchain-based system
 
-- Identify the specific supply chain challenges that you want to address with your blockchain system.Some common issues in  include lack of transparency, inefficient processes, and limited accountability.
+- Identify the specific supply chain challenges that you want to address with the blockchain system.Some common issues in  include lack of transparency, inefficient processes, and limited accountability.
 - Determine the appropriate blockchain platform for your needs. There are many different blockchain platforms available, each with its own strengths and weaknesses. Some popular platforms for supply chain applications include Ethereum, Hyperledger Fabric, Corda.
 - Design and develop your blockchain system. This will involve deciding on the specific features and functionality you want to include, as well as any necessary integrations with existing systems or processes.
 - Implement and test your system. This will likely involve working with different stakeholders in the supply chain, including NGOs, manufacturers, and logistics providers, to ensure that the system meets their needs and is effective in addressing the identified supply chain challenges.
