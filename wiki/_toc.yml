@@ -14,3 +14,5 @@ parts:
       title: Blockchain
     - file: UserAgreements.md
       title: User Agreements
+    - file: engineering-team.md
+      title: How to set up Engineering Team
