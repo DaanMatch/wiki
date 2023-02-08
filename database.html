@@ -363,13 +363,6 @@ title="Print to PDF"
   <a class="reference internal nav-link" href="#how-to-protect-personally-identifiable-information-pii-in-a-database">
    How to protect Personally Identifiable Information (PII) in a database?
   </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#projects">
-     projects
-    </a>
-   </li>
-  </ul>
  </li>
 </ul>
 
@@ -399,13 +392,6 @@ title="Print to PDF"
   <a class="reference internal nav-link" href="#how-to-protect-personally-identifiable-information-pii-in-a-database">
    How to protect Personally Identifiable Information (PII) in a database?
   </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#projects">
-     projects
-    </a>
-   </li>
-  </ul>
  </li>
 </ul>
 
@@ -419,6 +405,7 @@ title="Print to PDF"
                 
   <section class="tex2jax_ignore mathjax_ignore" id="database">
 <h1>Database<a class="headerlink" href="#database" title="Permalink to this headline">#</a></h1>
+<p><a class="reference external" href="https://docs.google.com/document/d/1Z6dCQ9iEyyHJ-b1aDA93F3tFqB0ICluw2i8Ex-WeENM/edit">Codebook</a></p>
 <section id="how-are-we-storing-images-audio-video-etc">
 <h2>How are we storing images, audio, video etc.?<a class="headerlink" href="#how-are-we-storing-images-audio-video-etc" title="Permalink to this headline">#</a></h2>
 <p>Images, videos, and audio are stored in a blob storage system and then the URLs to the blob storage URI are stored in a database. This approach has several benefits:</p>
@@ -440,31 +427,6 @@ title="Print to PDF"
 <li><p>Regular audits and security assessments: Regularly audit the database and perform security assessments to identify and address any vulnerabilities.</p></li>
 <li><p>Data retention and disposal: Have a plan in place for the retention and disposal of PII data, and ensure that all data is securely deleted when it is no longer needed.</p></li>
 </ol>
-<section id="projects">
-<h3>projects<a class="headerlink" href="#projects" title="Permalink to this headline">#</a></h3>
-<ul class="simple">
-<li><p>Project ID: UUID - Unique identifier for the project.</p></li>
-<li><p>Project Name: VARCHAR (255) - The name of the project.</p></li>
-<li><p>Project Location: VARCHAR (255) - The location where the project is taking place.</p></li>
-<li><p>Project Start Date: DATE - The date when the project started.</p></li>
-<li><p>Project End/Expected Close Date: DATE - The date when the project is expected to be completed.</p></li>
-<li><p>Nature of Intervention: VARCHAR (255) - The nature of the project intervention.</p></li>
-<li><p>Project Sector: VARCHAR (255) - The sector in which the project operates.</p></li>
-<li><p>Budget: NUMERIC (12, 2) - The budget allocated for the project.</p></li>
-<li><p>External Funding Received: NUMERIC (12, 2) - The funding received from external sources for the project.</p></li>
-<li><p>Number of Beneficiaries: INTEGER - The number of people who are directly or indirectly impacted by the project.</p></li>
-<li><p>Project Type: ENUM (e.g. Community Development, Health, Education, etc.) - The type of project.</p></li>
-<li><p>Project Photos: TEXT - Link to the photos related to the project.</p></li>
-<li><p>Project Documents: TEXT - Link to the documents related to the project.</p></li>
-<li><p>Project Description: TEXT - Detailed description of the project.</p></li>
-<li><p>Project Status: ENUM (Active, Completed, Suspended, etc.) - The current status of the project.</p></li>
-<li><p>Project Manager: VARCHAR (255) - The name of the person responsible for managing the project.</p></li>
-<li><p>Project Budget Allocation: NUMERIC (12, 2) - The budget allocated for the project.</p></li>
-<li><p>Project Budget Utilization: NUMERIC (12, 2) - The portion of the budget utilized for the project.</p></li>
-<li><p>Project Impact: VARCHAR (255) - The impact the project has on the community or environment.</p></li>
-<li><p>Project Report: TEXT - Link to the report related to the project.</p></li>
-</ul>
-</section>
 </section>
 </section>
 
@@ -480,7 +442,7 @@ title="Print to PDF"
             mode: "python"
         },
         kernelOptions: {
-            kernelName: "python3",
+            name: "python3",
             path: "./."
         },
         predefinedOutput: true

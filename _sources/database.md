@@ -1,5 +1,7 @@
 # Database
 
+[Codebook](https://docs.google.com/document/d/1Z6dCQ9iEyyHJ-b1aDA93F3tFqB0ICluw2i8Ex-WeENM/edit#)
+
 ## How are we storing images, audio, video etc.?
 
 Images, videos, and audio are stored in a blob storage system and then the URLs to the blob storage URI are stored in a database. This approach has several benefits:
@@ -18,26 +20,3 @@ Images, videos, and audio are stored in a blob storage system and then the URLs 
 5. Physical security: Store physical copies of PII data in a secure location to reduce the risk of theft or loss.
 6. Regular audits and security assessments: Regularly audit the database and perform security assessments to identify and address any vulnerabilities.
 7. Data retention and disposal: Have a plan in place for the retention and disposal of PII data, and ensure that all data is securely deleted when it is no longer needed.
-
-### projects
-
-- Project ID: UUID - Unique identifier for the project.
-- Project Name: VARCHAR (255) - The name of the project.
-- Project Location: VARCHAR (255) - The location where the project is taking place.
-- Project Start Date: DATE - The date when the project started.
-- Project End/Expected Close Date: DATE - The date when the project is expected to be completed.
-- Nature of Intervention: VARCHAR (255) - The nature of the project intervention.
-- Project Sector: VARCHAR (255) - The sector in which the project operates.
-- Budget: NUMERIC (12, 2) - The budget allocated for the project.
-- External Funding Received: NUMERIC (12, 2) - The funding received from external sources for the project.
-- Number of Beneficiaries: INTEGER - The number of people who are directly or indirectly impacted by the project.
-- Project Type: ENUM (e.g. Community Development, Health, Education, etc.) - The type of project.
-- Project Photos: TEXT - Link to the photos related to the project.
-- Project Documents: TEXT - Link to the documents related to the project.
-- Project Description: TEXT - Detailed description of the project.
-- Project Status: ENUM (Active, Completed, Suspended, etc.) - The current status of the project.
-- Project Manager: VARCHAR (255) - The name of the person responsible for managing the project.
-- Project Budget Allocation: NUMERIC (12, 2) - The budget allocated for the project.
-- Project Budget Utilization: NUMERIC (12, 2) - The portion of the budget utilized for the project.
-- Project Impact: VARCHAR (255) - The impact the project has on the community or environment.
-- Project Report: TEXT - Link to the report related to the project.
