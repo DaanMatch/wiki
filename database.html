@@ -355,6 +355,11 @@ title="Print to PDF"
     <nav id="bd-toc-nav" aria-label="Page">
         <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#field-naming-conventions">
+   Field Naming Conventions
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#how-are-we-storing-images-audio-video-etc">
    How are we storing images, audio, video etc.?
   </a>
@@ -384,6 +389,11 @@ title="Print to PDF"
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#field-naming-conventions">
+   Field Naming Conventions
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#how-are-we-storing-images-audio-video-etc">
    How are we storing images, audio, video etc.?
   </a>
@@ -406,6 +416,18 @@ title="Print to PDF"
   <section class="tex2jax_ignore mathjax_ignore" id="database">
 <h1>Database<a class="headerlink" href="#database" title="Permalink to this headline">#</a></h1>
 <p><a class="reference external" href="https://docs.google.com/document/d/1Z6dCQ9iEyyHJ-b1aDA93F3tFqB0ICluw2i8Ex-WeENM/edit">Codebook</a></p>
+<section id="field-naming-conventions">
+<h2>Field Naming Conventions<a class="headerlink" href="#field-naming-conventions" title="Permalink to this headline">#</a></h2>
+<p>Snake case: all lowercase letters with underscores between words (e.g., start_date, budget_allocation).</p>
+<ul class="simple">
+<li><p>Try to limit the name to 50 characters (shorter is better)</p></li>
+<li><p>Use only letters or underscores (try to avoid numbers – and limit the use of underscores)</p></li>
+<li><p>Limit the use of abbreviations (can lead to misinterpretation of names)</p></li>
+<li><p>Limit the use of acronyms (some acronyms have more than one meaning e.g. “ASP”)</p></li>
+<li><p>Make the name readable (they shouldn’t sound funny when read aloud).</p></li>
+<li><p>Avoid using spaces in names even if the system allows it.</p></li>
+</ul>
+</section>
 <section id="how-are-we-storing-images-audio-video-etc">
 <h2>How are we storing images, audio, video etc.?<a class="headerlink" href="#how-are-we-storing-images-audio-video-etc" title="Permalink to this headline">#</a></h2>
 <p>Images, videos, and audio are stored in a blob storage system and then the URLs to the blob storage URI are stored in a database. This approach has several benefits:</p>
