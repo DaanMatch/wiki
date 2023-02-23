@@ -4,7 +4,7 @@
 
 ## Field Naming Conventions
 
-Snake case: all lowercase letters with underscores between words (e.g., start_date, budget_allocation).
+Pascal case: the first letter of each word is capitalized with no spaces (e.g., StartDate, BudgetAllocation).
 
 - Try to limit the name to 50 characters (shorter is better)
 - Use only letters or underscores (try to avoid numbers – and limit the use of underscores)
@@ -12,6 +12,8 @@ Snake case: all lowercase letters with underscores between words (e.g., start_da
 - Limit the use of acronyms (some acronyms have more than one meaning e.g. "ASP")
 - Make the name readable (they shouldn't sound funny when read aloud).
 - Avoid using spaces in names even if the system allows it.
+
+Further naming conventions following [SQL server standards](https://www.isbe.net/Documents/SQL_server_standards.pdf).
 
 ## How are we storing images, audio, video etc.?
 
