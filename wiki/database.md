@@ -2,6 +2,17 @@
 
 [Codebook](https://docs.google.com/document/d/1Z6dCQ9iEyyHJ-b1aDA93F3tFqB0ICluw2i8Ex-WeENM/edit#)
 
+## Field Naming Conventions
+
+Snake case: all lowercase letters with underscores between words (e.g., start_date, budget_allocation).
+
+- Try to limit the name to 50 characters (shorter is better)
+- Use only letters or underscores (try to avoid numbers – and limit the use of underscores)
+- Limit the use of abbreviations (can lead to misinterpretation of names)
+- Limit the use of acronyms (some acronyms have more than one meaning e.g. "ASP")
+- Make the name readable (they shouldn't sound funny when read aloud).
+- Avoid using spaces in names even if the system allows it.
+
 ## How are we storing images, audio, video etc.?
 
 Images, videos, and audio are stored in a blob storage system and then the URLs to the blob storage URI are stored in a database. This approach has several benefits:
