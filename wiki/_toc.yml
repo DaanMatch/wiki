@@ -16,3 +16,5 @@ parts:
       title: User Agreements
     - file: engineering-team.md
       title: How to set up Engineering Team
+    - file: registration-num.md
+      title: Format of Registration Numbers in India
