@@ -51,6 +51,9 @@ For example, the FCRA number 1234567890123456 would be for an organization that 
 
 The FCRA number is used by the Ministry of Home Affairs to track organizations that are registered under the FCRA and to identify them for compliance purposes. It is also used by organizations that are registered under the FCRA to file their annual returns and to make tax payments.
 
+- Data Type: Numeric
+- Length: 15
+
 ## Registration Number
 
 There is no specific number format for NGO registration in India. The registration number is assigned by the registering authority, which is usually the state government. The registration number is usually a combination of letters and numbers, and it is unique to each NGO.
@@ -58,3 +61,5 @@ There is no specific number format for NGO registration in India. The registrati
 The registration number is important because it is used to identify the NGO and to track its activities. It is also used to verify the authenticity of the NGO. For example, when an NGO applies for a grant, the grant-making organization will usually ask for the NGO's registration number. This helps to ensure that the grant is going to a legitimate organization.
 
 To find out the registration number of an NGO, you can contact the registering authority or you can visit the NGO's website. The registration number is usually displayed on the NGO's website.
+
+- Data Type: Literal
