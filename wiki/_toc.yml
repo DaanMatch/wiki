@@ -6,6 +6,8 @@ root: intro
 parts:
   - caption: Best practices
     chapters:
+    - file: stateWiseView/StateWiseView.ipynb
+      title: State Wise View
     - file: DataOps.md
       title: DataOps
     - file: privacy_policy.md
