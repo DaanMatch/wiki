@@ -10,6 +10,8 @@ parts:
       title: State Wise View
     - file: DataOps.md
       title: DataOps
+    - file: Database.md
+      title: Databse conventions
     - file: privacy_policy.md
       title: Privacy Policy
     - file: blockchain.md
