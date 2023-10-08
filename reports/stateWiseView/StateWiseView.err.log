@@ -50,7 +50,7 @@ def update_chart(selected_year, new_field):
     plt.show()
 
 # Create an interactive widget that updates the chart
-interactive_plot = interactive(update_chart, selected_year=year_selector, new_field=['Poverty rate', 'population', 'HDI (2021)'])
+interactive_plot = interactive(update_chart, selected_year=year_selector, new_field=['Poverty rate', 'Population', 'HDI (2021)'])
 
 # Display the interactive widget
 display(interactive_plot)
@@ -63,7 +63,7 @@ display(interactive_plot)
 Cell [0;32mIn[9], line 36[0m
 [1;32m     33[0m     plt[38;5;241m.[39mshow()
 [1;32m     35[0m [38;5;66;03m# Create an interactive widget that updates the chart[39;00m
-[0;32m---> 36[0m interactive_plot [38;5;241m=[39m interactive(update_chart, selected_year[38;5;241m=[39m[43myear_selector[49m, new_field[38;5;241m=[39m[[38;5;124m'[39m[38;5;124mPoverty rate[39m[38;5;124m'[39m, [38;5;124m'[39m[38;5;124mpopulation[39m[38;5;124m'[39m, [38;5;124m'[39m[38;5;124mHDI (2021)[39m[38;5;124m'[39m])
+[0;32m---> 36[0m interactive_plot [38;5;241m=[39m interactive(update_chart, selected_year[38;5;241m=[39m[43myear_selector[49m, new_field[38;5;241m=[39m[[38;5;124m'[39m[38;5;124mPoverty rate[39m[38;5;124m'[39m, [38;5;124m'[39m[38;5;124mPopulation[39m[38;5;124m'[39m, [38;5;124m'[39m[38;5;124mHDI (2021)[39m[38;5;124m'[39m])
 [1;32m     38[0m [38;5;66;03m# Display the interactive widget[39;00m
 [1;32m     39[0m display(interactive_plot)
 
